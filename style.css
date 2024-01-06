@@ -229,7 +229,7 @@ margin-top: 30px;
 margin-bottom: 10px;
 }
 .univ{
-    color: var(--Dark-03, #757575);
+    color:  #757575;
 font-family: Open Sans;
 font-size: 20px;
 font-style: normal;
@@ -269,4 +269,109 @@ margin-bottom: 30px;
    cursor: pointer;   
 }
 /* Footer section start from here */
+.footer{
+    background: #FFF8F3;
+    width: 1600px;
+    height: 780px;
+    flex-shrink: 0;  
+}
+.connect h1{
+color: #181818;
+text-align: left;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 130px;
+padding-bottom: 20px;
+}
+.connect p{
+width: 562px;
+color: #474747;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+text-align: left;
+margin-bottom: 30px;
+}
+.sicon img{
+width: 24px;
+height: 24px;
+}
+.both-pad{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.message h1{
+    color: #181818;
+    text-align: left;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+.inbox{
+    display: flex;
+    flex-direction: column;
+    padding:0 24px;
+}
+.nm{
+    width: 461px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF; 
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */ 
+    padding-left: 36px;
+    margin-bottom: 24px; 
+}
+.ta{
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    background:  #FFF;
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    padding-left: 36px;
+    margin-bottom: 24px; 
 
+}
+.last-btn{
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: var(--White-Color, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+.fcon{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Copywritht txt */
+.copy{
+    text-align: center;
+    margin-top: 100px;
+}
