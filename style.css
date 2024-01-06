@@ -199,3 +199,74 @@ text-align: left;
 }
 
 /* Resume section start */
+.res-heading{
+color: #181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 120px;
+margin-bottom: 100px;
+}
+.edu-head{
+color: #474747;
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.degree{
+color: #474747;
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 30px;
+margin-bottom: 10px;
+}
+.univ{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 20px;
+}
+.descrip{
+color: #757575;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 511px;
+margin-bottom: 30px;
+}
+.resume-con{
+    display: flex;
+    justify-content: space-evenly;
+}
+.dwnbtn{
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0; 
+    border-radius: 5px;
+    background: #FD6E0A; 
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   margin-top: 50px;
+   margin-bottom: 112px;
+   cursor: pointer;   
+}
+/* Footer section start from here */
+
