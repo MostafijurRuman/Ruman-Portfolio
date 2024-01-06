@@ -76,7 +76,7 @@ font-weight: 600;
 line-height: normal;
 }
 .hero-intro h1{
-color:#181818);
+color:#181818;
 font-family: Open Sans;
 font-size: 85px;
 font-style: normal;
@@ -109,7 +109,7 @@ padding: 30px 0;
         padding:130px 150px ;
     }
 .about-box h1{
-color: #181818);
+color: #181818;
 text-align: center;
 font-family: Open Sans;
 font-size: 35px;
@@ -118,7 +118,7 @@ font-weight: 700;
 line-height: normal;
 }
 .about-box p{
-color: #757575);
+color: #757575;
 text-align: center;
 font-family: Open Sans;
 font-size: 18px;
@@ -144,3 +144,58 @@ p.info-description {
     color: #474747;
     margin-top: -50px;
 }
+
+/* What i do section starts */
+.What-i-do h1{
+color:#181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.What-i-do p{
+color: #757575;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin: 25px 334px;
+}
+
+.skill-box{
+width: 267px;
+ height: 377px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+margin-right: 24px;
+}
+.skill-box p{
+color:#757575;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */;
+width: 201px;
+margin-left: 30px;
+text-align: left;
+}
+.skill-con{
+    display: flex;
+    justify-content: center;
+}
+.skill-box img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.skill-box h3{
+    margin-left: 30px;
+}
+
+/* Resume section start */
