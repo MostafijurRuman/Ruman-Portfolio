@@ -101,4 +101,46 @@ padding: 30px 0;
 /* Header and hero section end */
 
 /*About Me Section Start*/
+.about-box {
+        background: #FFF8F3;
+        border-radius: 10px;
+        margin: 130px 200px;
+        text-align: center;
+        padding:130px 150px ;
+    }
+.about-box h1{
+color: #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.about-box p{
+color: #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+text-align: center;
+padding: 30px 0;
+}
+.about-info-con{
+    display: flex;
+    justify-content: space-around;
+}
 
+.info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+p.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    margin-top: -50px;
+}
